@@ -17,10 +17,14 @@ It allows you to see how floating-point numbers are stored in your computer and 
 
 ```bash
 python to_ieee.py "13.37" "0.5" "-42.0"
+13.37 -> 01000001010101011110101110000101
+0.5 -> 00111111000000000000000000000000
+-42.0 -> 11000010001010000000000000000000
 ```
 
 ### 2. Convert IEEE-754 Binary to Decimal
 
 ```bash
 python to_decimal.py "01000100101001110011000000000000"
+01000100101001110011000000000000 -> 1337.5
 ```
